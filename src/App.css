@@ -1,0 +1,50 @@
+.app{
+  max-width: 1440px;
+  margin: 0 100px;
+}
+
+.ad-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0px 100px;
+  position: relative;
+}
+
+.ad-content {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+
+}
+
+.ad-content a{
+  color: white;
+}
+.ad-close {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .app{
+    margin: 0 20px;
+  }
+  .ad-banner {
+    padding: 0px 20px;
+
+  }
+  
+  .ad-content {
+    font-size: 12px;
+  
+  }
+  .ad-close {
+  display: none;
+
+  }
+ 
+}
