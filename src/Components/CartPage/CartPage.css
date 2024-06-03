@@ -11,7 +11,6 @@
 .cart-page {
   display: flex;
   justify-content: space-between;
-
   flex-wrap: wrap;
 }
 
@@ -93,8 +92,11 @@ text-align: left;
   margin: 0 10px;
 }
 
-.order-summary {
+.order-summary-div{
   flex: 1;
+}
+
+.order-summary {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 20px;
@@ -127,7 +129,6 @@ text-align: left;
   border: none;
   padding: 10px;
   cursor: pointer;
-  margin-top: 20px;
   border-radius: 20px;
 }
 
@@ -138,7 +139,7 @@ text-align: left;
 .promo-code {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
+  margin: 10px 0 20px 0;
 }
 
 .promo-code input {
@@ -180,7 +181,7 @@ text-align: left;
     padding: 5px;
   }
 
-  .order-summary {
+  .order-summary-div {
     margin-top: 20px;
   }
 

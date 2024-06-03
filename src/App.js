@@ -3,6 +3,7 @@ import './App.css'
 import { useState } from "react";
 import Breadcrumbs from "./Components/Breadcrumbs/Breadcrumbs";
 import CartPage from "./Components/CartPage/CartPage";
+import Newsletter from "./Components/NewsLetter/NewsLetter";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
     <hr />
     <Breadcrumbs/>
     <CartPage/>
+    <Newsletter/>
     </div>
     </div>
   );

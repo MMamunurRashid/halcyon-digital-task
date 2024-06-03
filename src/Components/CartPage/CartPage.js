@@ -34,6 +34,15 @@ const CartPage = () => {
       color: "Blue",
       imageUrl: img3,
     },
+    {
+      id: 4,
+      name: "Checkered Shirt",
+      quantity: 1,
+      price: 180,
+      size: "L",
+      color: "Blue",
+      imageUrl: img3,
+    },
   ]);
 
   // State for order summary
@@ -111,8 +120,9 @@ const CartPage = () => {
             </div>
           ))}
         </div>
-        <div className="order-summary">
-          <h2>Order Summary</h2>
+        <div className="order-summary-div">
+          <div className="order-summary">
+            <h2>Order Summary</h2>
           <div className="summary-item">
             <span>Subtotal</span>
             <span className="summary-item-span">${orderSummary.subtotal}</span>
@@ -143,6 +153,8 @@ const CartPage = () => {
             </button>
           </div>
           <button className="checkout-button">Go to Checkout</button>
+          </div>
+          
         </div>
       </div>
     </div>
