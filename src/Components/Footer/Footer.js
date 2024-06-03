@@ -73,19 +73,19 @@ const Footer = () => {
           <div className="footer-column">
             <h3>Company</h3>
             <ul>
-              <li>About</li>
-              <li>Features</li>
-              <li>Works</li>
-              <li>Careers</li>
+              <li><a href="/">About</a></li>
+              <li><a href="/">Features</a></li>
+              <li><a href="/">Works</a></li>
+              <li><a href="/">Careers</a></li>
             </ul>
           </div>
           <div className="footer-column">
             <h3>Help</h3>
             <ul>
-              <li>Customer Support</li>
-              <li>Delivery Details</li>
-              <li>Terms & Condition</li>
-              <li>Privacy Policy</li>
+              <li><a href="/">Customer Support</a></li>
+              <li><a href="/">Delivery Details</a></li>
+              <li><a href="/">Terms & Condition</a></li>
+              <li><a href="/">Privacy Policy</a></li>
             </ul>
           </div>
         </div>
@@ -93,19 +93,19 @@ const Footer = () => {
           <div className="footer-column">
             <h3>FAQ</h3>
             <ul>
-              <li>Account</li>
-              <li>Manage Deliveies</li>
-              <li>Orders</li>
-              <li>Payments</li>
+              <li><a href="/">Account</a></li>
+              <li><a href="/">Manage Deliveies</a></li>
+              <li><a href="/">Orders</a></li>
+              <li><a href="/">Payments</a></li>
             </ul>
           </div>
           <div className="footer-column">
             <h3>Resources</h3>
             <ul>
-              <li>Free eBooks</li>
-              <li>How to - Blog</li>
-              <li>Development Tutorial</li>
-              <li>Youtube Playlist</li>
+              <li><a href="/">Free eBooks</a></li>
+              <li><a href="/">How to - Blog</a></li>
+              <li><a href="/">Development Tutorial</a></li>
+              <li><a href="/">Youtube Playlist</a></li>
             </ul>
           </div>
         </div>
