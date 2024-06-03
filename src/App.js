@@ -4,6 +4,7 @@ import { useState } from "react";
 import Breadcrumbs from "./Components/Breadcrumbs/Breadcrumbs";
 import CartPage from "./Components/CartPage/CartPage";
 import Newsletter from "./Components/NewsLetter/NewsLetter";
+import Footer from "./Components/Footer/Footer";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
     <CartPage/>
     <Newsletter/>
     </div>
+    <Footer/>
     </div>
   );
 }

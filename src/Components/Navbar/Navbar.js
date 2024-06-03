@@ -24,7 +24,7 @@ const Navbar = () => {
           />
         </svg>
       </div>
-      <div className="navbar-logo">SHOP.CO</div>
+      <h1 className="navbar-logo">SHOP.CO</h1>
       <ul className={`navbar-links ${menuOpen ? "open" : ""}`}>
         <li className="navbar-item arrow">
          <a href="/"> Shop <svg className="" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

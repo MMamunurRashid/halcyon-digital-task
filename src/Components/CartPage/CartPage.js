@@ -34,15 +34,7 @@ const CartPage = () => {
       color: "Blue",
       imageUrl: img3,
     },
-    {
-      id: 4,
-      name: "Checkered Shirt",
-      quantity: 1,
-      price: 180,
-      size: "L",
-      color: "Blue",
-      imageUrl: img3,
-    },
+   
   ]);
 
   // State for order summary
@@ -65,7 +57,7 @@ const CartPage = () => {
     const discount = subtotal * 0.2; 
     const total = subtotal - discount - orderSummary.promoDiscount + orderSummary.shipping;
     setOrderSummary({ ...orderSummary, subtotal, discount, total });
-  }, [cartItems, orderSummary.promoDiscount, orderSummary]);
+  }, [cartItems, orderSummary.promoDiscount]);
 
   const removeItem = (id) => {
     setCartItems(cartItems.filter((item) => item.id !== id));
