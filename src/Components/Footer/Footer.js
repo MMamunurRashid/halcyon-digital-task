@@ -11,6 +11,8 @@ const Footer = () => {
             We have clothes that suits your style and which you’re proud to
             wear. From women to men.
           </p>
+
+          {/* social media icons  */}
           <div className="social">
             <svg
               width="28"
@@ -115,7 +117,9 @@ const Footer = () => {
         <div>
         <p>© 2000-2021, All rights reserved</p>
         </div>
-       <div className="payment-systems"> <svg
+       <div className="payment-systems">
+        {/* payments systems icons  */}
+         <svg
           width="34"
           height="12"
           viewBox="0 0 34 12"
